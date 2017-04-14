@@ -1,11 +1,18 @@
 h1 {
-	color: red;
-}
-
-li {
-	color: green;
+	color: rgba(0, 200, 100, 0.8);
+	/* can write border in 2 ways*/
+	/*first way do each one individuallys*/
+/*	border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+	/*second way*/
+	border: 5px solid purple;
 }
 
 h4 {
-	color: purple;
+	background: rgb(255, 100, 80);
+}
+
+body {
+	background: pink;
 }
