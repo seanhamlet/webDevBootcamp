@@ -1,19 +1,26 @@
+
+/* don't use margin because h1 stretches across entire screen 
+instead use text-align
+*/
 h1 {
-	margin: 0 auto 0 auto;
+	text-align: center
+}
+
+table {
+	margin: auto;
 }
 
 td {
 	width: 100px;
 	height: 100px;
-	margin: 0 auto;
 }
 
-td:nth-of-type(2) {
+.vertical {
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
 
-tr:nth-of-type(2) td {
+.horizontal {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
