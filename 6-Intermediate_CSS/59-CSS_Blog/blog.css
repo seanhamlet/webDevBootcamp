@@ -1,0 +1,42 @@
+body {
+	border: 20px solid #bdc3c7;
+	/* padding between border and content */
+	padding: 20px;
+
+	/* make it 80% width when you need to, but at a maximum make it 700px*/
+	/* if 80% is greater than 700px, then width is limited to 700px*/
+	/* width won't be any larger than that*/
+	max-width: 700px;
+	/* when width is smaller than 700px, make it 80% of width*/
+	width: 80%;
+	/* 20 pixel on top and bottom and auto for left and right*/
+	/* auto for left and right will center the body on the page*/
+	margin: 20px auto;
+	font-family: Source Sans Pro;
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
