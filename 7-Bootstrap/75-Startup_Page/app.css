@@ -1,0 +1,37 @@
+body {
+	background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?dpr=2&fit=crop&fm=jpg&h=775&q=50&w=1450);
+	/* make background image fit within page*/
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	/* h1 and h3 tags of page are non-specific so they can be easily overrided*/
+	/* the bootstrap button and navbar won't be overwritten by this because
+	their selectors are more specific */
+	color: white;
+}
+
+html {
+	height: 100%;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	/* offset-x | offset-y | blur-radius | color */
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0, 0.4),
+							 0px 8px 13px rgba(0, 0, 0, 0, 0.1),
+							 0px 18px 23px rgba(0, 0, 0, 0, 0.1);
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr {
+	width: 400px;
+	/* update hr style - line */
+	border-top: 1px solid #f8f8f8;
+	/* update hr style - give shadow effect */
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
